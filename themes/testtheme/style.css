@@ -1,0 +1,37 @@
+/*
+Theme Name: Test Page Please Ignore
+Author: A Dumbfuck
+Description: This is actually a test page please ignore. Alot if not everything here will be broken.
+Requires at least: WordPress 4.9.6
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: testpage
+*/
+
+body {
+  background: rgb(60,60,60);
+}
+
+.custom-logo {
+  position: absolute;
+  height: 3vh;
+  width: auto;
+  top: 1vh;
+  left: 1vw;
+}
+
+.content-flexbox-container {
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  display: flex;
+  width: 100%;
+}
+
+.content-container {
+  background-color: white;
+  padding: 10px 15vw 20px 15vw;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}

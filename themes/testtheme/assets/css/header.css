@@ -1,0 +1,46 @@
+
+
+/* If viewport wider than tall */
+@media (min-aspect-ratio: 1/1) {
+  #header-dropdown-menu {
+    position: fixed;
+    right: 2vw;
+  }
+
+  #header-menu-icon {
+    height: 10vh;
+    width: 10vh;
+    border: solid white 2px;
+    display: block;
+  }
+}
+
+/* If viewport taller than wide */
+@media (max-aspect-ratio: 1/1) {
+  #header-dropdown-menu {
+    position: absolute;
+    width: 10vh;
+    height: 10vh;
+    right: 3vw;
+    top: 2vh;
+    border: solid white .5vh;
+    transition: .4s;
+  }
+
+  /* TODO fix this dysfunctional shit */
+
+  #bar-1 {
+    width: 8vh;
+    height: 2vh;
+    background-color: white;
+
+  }
+
+  #header-dropdown-menu:hover {
+    transform: rotateZ(180deg);
+  }
+}
+
+.menu {
+  display: none;
+}
