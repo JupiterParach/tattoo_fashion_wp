@@ -23,6 +23,7 @@ function register_my_menus() {
 function enqueueStylesAndScripts() {
   wp_enqueue_style( 'style.css', get_stylesheet_uri() );
   wp_enqueue_style( 'header.css', get_template_directory_uri() . '/assets/css/header.css' );
+  // TODO: add font awesome css that flipper js depends on
 }
 add_action( 'wp_enqueue_scripts', 'enqueueStylesAndScripts' );
 
