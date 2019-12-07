@@ -11,27 +11,19 @@ Text Domain: testpage
 
 body {
   background: rgb(60,60,60);
+  margin: 0;
+}
+
+@media (min-aspect-ratio: 1/1) {
+  .bg-cover-fix {
+    background-size: auto 100vh;
+  }
 }
 
 .custom-logo {
   position: absolute;
-  height: 3vh;
+  height: 4vh;
   width: auto;
   top: 1vh;
   left: 1vw;
-}
-
-.content-flexbox-container {
-  margin-top: 20vh;
-  margin-bottom: 10vh;
-  display: flex;
-  width: 100%;
-}
-
-.content-container {
-  background-color: white;
-  padding: 10px 15vw 20px 15vw;
-  width: 100%;
-  height: auto;
-  margin: auto;
 }
