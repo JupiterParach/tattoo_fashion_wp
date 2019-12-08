@@ -8,7 +8,7 @@
   </head>
   <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-    <div class="container-fluid position-fixed">
+    <div class="container-fluid" style="padding-top: .8rem;">
       <div class="row">
         <div class="col">
           <?php
@@ -31,45 +31,3 @@
       </div>
 
     </div>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>
-    <p>ppp</p>

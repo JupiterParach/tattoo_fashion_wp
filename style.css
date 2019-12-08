@@ -15,15 +15,23 @@ body {
 }
 
 @media (min-aspect-ratio: 1/1) {
+  .mobile-probably-true {
+    display: none;
+  }
+
   .bg-cover-fix {
-    background-size: auto 100vh;
+
+  }
+
+  .custom-logo {
+    height: 2rem;
+    width: auto;
   }
 }
 
-.custom-logo {
-  position: absolute;
-  height: 4vh;
-  width: auto;
-  top: 1vh;
-  left: 1vw;
+@media (max-aspect-ratio: 1/1) {
+  .custom-logo {
+    height: 1.4rem;
+    width: auto;
+  }
 }
